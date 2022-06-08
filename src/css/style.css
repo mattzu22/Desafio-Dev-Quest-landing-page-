@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.register{
+    max-width: 1440px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   padding: 60px 90px 90px 75px;
+   gap: 55px;
+   background: url(/src/image/bg-desktop.svg);
+   background-color: var(--violet);
+}
+
+.register .images .logo{
+    width: 215px;
+    margin-bottom: 80px;
+}
+
+.register .images .img-big{
+    max-width: 100%;
+}
+
+.register .information{
+    max-width: 520px;
+}
+
+.register .information .title{
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+}
+
+.register .information .text{
+    font-size: 1.8rem;
+    color: rgb(230, 222, 222);
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.7rem;
+}
+
+.register .information .btn{
+    font-size: 1.8rem;
+    padding: 15px 63px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.3s ease-in-out;
+}
+
+.register .information .btn:hover{
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
+
+.register .social{
+    position: absolute;
+    bottom: 30px;
+    right: 93px;
+}
+
+.register .social a{
+    font-size: 30px;
+    color: white;
+    margin-left: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.register .social a:hover{
+    color: var(--Soft-Magenta);
+}
+
+
+
+
+
