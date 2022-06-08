@@ -6,7 +6,7 @@
 
     Esse foi um desafio proposto pelo curso DevQuest usando como base um projeto do Frontend Mentor.
     O projeto deveria ter um layout agradável para mobile e desktop e alguns elementos interativos 
-    na página e não esquecendo de criar um código o  limpo e semântico.
+    na página e não esquecendo de criar um código limpo e semântico.
 
 ## 🔖 Dificuldades
 
