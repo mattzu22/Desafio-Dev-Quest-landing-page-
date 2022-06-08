@@ -21,7 +21,7 @@ body{
    position: relative;
    padding: 60px 90px 90px 75px;
    gap: 55px;
-   background: url(/src/image/bg-desktop.svg);
+   background: url(../image/bg-desktop.svg);
    background-color: var(--violet);
 }
 
