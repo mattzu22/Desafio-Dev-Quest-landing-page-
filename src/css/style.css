@@ -9,20 +9,24 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white;
+    background: url(../image/bg-desktop.svg) no-repeat left center;
+    background-size: cover;
+    background-color: var(--violet);
 }
 
 .register{
     max-width: 1440px;
    display: flex;
    align-items: center;
-   position: relative;
-   padding: 60px 90px 90px 75px;
+   justify-content: center;
    gap: 55px;
-   background: url(../image/bg-desktop.svg);
-   background-color: var(--violet);
+}
+
+.register .images{
+    display: flex;
+    flex-direction: column;
 }
 
 .register .images .logo{
@@ -31,10 +35,13 @@ body{
 }
 
 .register .images .img-big{
+    padding: 0 10px;
     max-width: 100%;
+    min-width: 430px;
 }
 
 .register .information{
+    position: relative;
     max-width: 520px;
 }
 
@@ -42,7 +49,6 @@ body{
     margin-bottom: 20px;
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-    max-width: 100%;
 }
 
 .register .information .text{
@@ -68,20 +74,29 @@ body{
 }
 
 .register .social{
+    display: flex;
     position: absolute;
-    bottom: 30px;
-    right: 93px;
+    bottom: -170px;
+    right: 15px;
 }
 
 .register .social a{
-    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
     color: white;
-    margin-left: 14px;
+    margin-left: 18px;
     transition: 0.3s ease-in-out;
 }
 
 .register .social a:hover{
     color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
 }
 
 
